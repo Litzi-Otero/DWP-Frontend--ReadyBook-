@@ -1,0 +1,75 @@
+@import url('../../styles/variables.css');
+
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-left: 100px; /* Deja espacio para el sidebar cuando esté abierto */
+  transition: margin-left 0.3s ease; /* Suaviza el cambio de margen */
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.welcome-section {
+  flex: 1;
+  text-align: center; 
+  padding-right: 20px;
+}
+
+.welcome-section h2 {
+  color: #343a40;
+  margin-bottom: 70px;
+}
+
+.welcome-section p {
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+.btn-ver-mas {
+  background-color: var(--blue-color);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-ver-mas:hover {
+  background-color: var(--hover-button-color);
+}
+
+.image-section {
+  flex: 1;
+  text-align: right;
+  position: relative;
+}
+
+.catalog-image {
+  max-width: 85%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.carousel-arrow-prev {
+  left: 10px;
+}
+
+.carousel-arrow-next {
+  right: 10px;
+}

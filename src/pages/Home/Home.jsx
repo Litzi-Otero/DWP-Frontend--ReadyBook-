@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MainLayout from "../../layouts/MainLayout"; // Importa MainLayout
 import "./Home.css";
 
 const Home = () => {
   return (
-    <MainLayout>
       <div className="home-container">
         <header>
         <h1>Bienvenido a Nuestra Biblioteca Virtual</h1>
@@ -17,7 +15,6 @@ const Home = () => {
           <Link to="/register" className="btn-register">Registrarse</Link>
         </div>
       </div>
-    </MainLayout>
   );
 };
 

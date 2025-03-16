@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #f0f2f5;
 }
 
 .login-container {
@@ -18,7 +18,7 @@ body {
 .logo {
   display: block;
   margin: 0 auto 20px;
-  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+  width: 100px; 
 }
 
 .login-box h2 {
@@ -45,14 +45,14 @@ body {
 }
 
 .login-box input {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.login-box .submit-button {
-  background-color: #007bff;
+.submit-button {
+  background-color: #A1459D;
   color: #ffffff;
   padding: 10px;
   border: none;
@@ -61,21 +61,21 @@ body {
   transition: background-color 0.3s;
 }
 
-.login-box .submit-button:hover {
-  background-color: #0056b3;
+.submit-button:hover {
+  background-color: #cacfd2;
 }
 
-.login-box .register-link {
+.register-link {
   text-align: center;
   margin-top: 20px;
 }
 
-.login-box .register-link a {
-  color: #007bff;
+.register-link a {
+  color: #52C2C3;
   text-decoration: none;
   transition: text-decoration 0.3s;
 }
 
-.login-box .register-link a:hover {
+.register-link a:hover {
   text-decoration: underline;
 }

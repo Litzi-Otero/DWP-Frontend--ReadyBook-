@@ -1,0 +1,75 @@
+.manage-users-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor de búsqueda y botón */
+.search-containerM {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+/* Input de búsqueda */
+.search-containerM input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Ícono de búsqueda */
+.search-iconM {
+    margin-left: -30px;
+    color: gray;
+}
+
+/* Botón de agregar usuario en la derecha */
+.add-user-btn {
+    background-color: var(--blue-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Estilos de la tabla */
+.users-table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: var(--gray-color);
+}
+
+/* Botones de acciones */
+.edit-btn, .delete-btn {
+    border: none;
+    padding: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    color: var(--purple-color);
+}
+
+.delete-btn {
+    color: var(--red-color);
+}
